@@ -157,3 +157,58 @@ while (bKey)
 */
 
 
+
+
+
+
+
+
+
+string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+string[] phraseWithDot = new string[] { };
+
+foreach (var item in myStrings)
+{
+    phraseWithDot = item.Split('.');
+
+    for (int i = 0; i <= phraseWithDot.Length - 1; i++)
+    {
+        Console.WriteLine(phraseWithDot[i]);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
